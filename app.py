@@ -129,7 +129,7 @@ datas = completo[ 'Data'].iloc[-180:]
 sns.barplot(data=completo.sort_values('Data', ascending=False),x=datas, y=values, color='dodgerblue')
 plt.gca().xaxis.set_major_locator(mdates.MonthLocator(interval=3))
 plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-plt.gcf().autofmt_xdate()
+#plt.gcf().autofmt_xdate()
 plt.xticks(rotation=45,fontsize=6)
 plt.yticks(fontsize=6)
 plt.grid(color='lightgrey')
