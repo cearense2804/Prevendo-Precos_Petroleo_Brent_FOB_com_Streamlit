@@ -122,7 +122,7 @@ with st.container():
         max_data = dados[['Data','Preco_Petroleo_Brent_FOB']].loc[dados['Preco_Petroleo_Brent_FOB'] == maior].set_index('Data')
         st.write('Data de registro:',max_data)  
         st.write("☞ O maior preço foi verificado em julho de 2008. Os riscos crescentes de desaceleração da economia norte-americana e dos indícios de “diminuição de demanda” por combustíveis nos países desenvolvidos (em particular, nos EUA) elevaram os preços.") 
-st.write('Diferença Percentual de Preços Entre os Dias Subsequentes(%)')
+st.write('Variação Percentual de Preços Entre os Dias Subsequentes(%)')
 fig = plt.figure(figsize=(15, 6))
 values =completo[ 'Diferenca(%)'].iloc[-180:] 
 datas = completo[ 'Data'].iloc[-180:] 
