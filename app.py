@@ -22,6 +22,8 @@ col7, col8 = st.columns(2)
 col9, col10, col11 = st.columns(3) 
 col12, col13 = st.columns(2) 
 col14, col15,col16 = st.columns(3)
+col17, col18, col19 = st.columns(3) 
+
 
 #upload de csv
 dados = pd.read_csv('ipea.csv')
@@ -232,12 +234,18 @@ with st.container():
         st.link_button("Site do IPEA", "http://www.ipeadata.gov.br/ExibeSerie.aspx?module=m&serid=1650971490&oper=view",type="primary")
     with col16:
         st.write("")
-
- 
+        
 st.markdown('##### Links:')
-st.write("Github:    ☞ https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py")
-st.write("Streamlit App:    ☞ https://prevendo-precospetroleobrentfobcomapp-fffmbxouavt3ffjtinxna7.streamlit.app/")
-
+with st.container():
+    col17, col18, col19 = st.columns([1,2,7])   
+    with col17:   
+        st.write("☞ Github:")
+        st.link_button("https://github.com/cearense2804", "https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py",type="primary")
+    with col18:
+        st.write("☞ Streamlit App: ")
+        st.link_button("Streamlit App", "https://prevendo-precospetroleobrentfobcomapp-fffmbxouavt3ffjtinxna7.streamlit.app/",type="primary")
+    with col19:
+        st.write("")
 
 
 
