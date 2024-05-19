@@ -127,7 +127,7 @@ fig = plt.figure(figsize=(15, 6))
 values =completo[ 'Diferenca(%)'].iloc[-180:] 
 datas = completo[ 'Data'].iloc[-180:] 
 sns.barplot(data=completo.sort_values('Data', ascending=False),x=datas, y=values, color='dodgerblue')
-plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=20))
+plt.gca().xaxis.set_major_locator(mdates.MonthLocator(interval=2))
 plt.gcf().autofmt_xdate()
 plt.xticks(fontsize=6)
 plt.yticks(fontsize=6)
