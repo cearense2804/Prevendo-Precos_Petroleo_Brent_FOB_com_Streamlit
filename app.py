@@ -231,7 +231,7 @@ with st.container():
     with col15:
         st.write("")
         st.write("")
-        st.link_button("Site do IPEA", "http://www.ipeadata.gov.br/ExibeSerie.aspx?module=m&serid=1650971490&oper=view",type="primary")
+        st.link_button("Site do IPEA", "http://www.ipeadata.gov.br/ExibeSerie.aspx?module=m&serid=1650971490&oper=view",type="secondary")
     with col16:
         st.write("")
 
