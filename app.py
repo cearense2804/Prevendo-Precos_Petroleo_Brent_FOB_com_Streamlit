@@ -234,6 +234,10 @@ with st.container():
         st.write("")
 
  
+st.subheader('Links:')
+st.write("Github:    https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py")
+st.write("Streamlit App:    https://prevendo-precospetroleobrentfobcomapp-fffmbxouavt3ffjtinxna7.streamlit.app/")
+
 
 
 
