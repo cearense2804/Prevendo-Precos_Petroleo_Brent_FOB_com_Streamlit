@@ -22,7 +22,7 @@ col7, col8 = st.columns(2)
 col9, col10, col11 = st.columns(3) 
 col12, col13 = st.columns(2) 
 col14, col15,col16 = st.columns(3)
-col17, col18, col19 = st.columns(3) 
+col17, col18 = st.columns(2) 
 
 
 #upload de csv
@@ -237,16 +237,14 @@ with st.container():
 
 st.markdown('##### Links:')
 with st.container():
-    col17, col18, col19 = st.columns([2,3,5])   
+    col17, col18 = st.columns([3,7])   
     with col17:   
         st.write("☞ Github:")
         st.write("")
         st.write("☞ Streamlit App: ")       
     with col18:
-        st.link_button("https://github.com/cearense2804", "https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py",type="secondary")
+        st.link_button("https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py", "https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py",type="secondary")
         st.link_button("Streamlit App", "https://prevendo-precospetroleobrentfobcomapp-fffmbxouavt3ffjtinxna7.streamlit.app/",type="secondary")
-    with col19:
-        st.write("")
-
+   
 
     
