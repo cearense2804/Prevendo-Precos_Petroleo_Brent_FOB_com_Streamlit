@@ -237,13 +237,14 @@ with st.container():
 
 st.markdown('##### Links:')
 with st.container():
-    col17, col18, col19 = st.columns([1,2,7])   
+    col17, col18, col19 = st.columns([2,3,5])   
     with col17:   
         st.write("☞ Github:")
-        st.link_button("https://github.com/cearense2804", "https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py",type="primary")
+        st.write("")
+        st.write("☞ Streamlit App: ")       
     with col18:
-        st.write("☞ Streamlit App: ")
-        st.link_button("Streamlit App", "https://prevendo-precospetroleobrentfobcomapp-fffmbxouavt3ffjtinxna7.streamlit.app/",type="primary")
+        st.link_button("https://github.com/cearense2804", "https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py",type="secondary")
+        st.link_button("Streamlit App", "https://prevendo-precospetroleobrentfobcomapp-fffmbxouavt3ffjtinxna7.streamlit.app/",type="secondary")
     with col19:
         st.write("")
 
