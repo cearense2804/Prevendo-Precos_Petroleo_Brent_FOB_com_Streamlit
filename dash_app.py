@@ -9,7 +9,6 @@ import numpy as np
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
-import plotly.express as px
 import altair as alt
 import joblib 
 import pickle 
