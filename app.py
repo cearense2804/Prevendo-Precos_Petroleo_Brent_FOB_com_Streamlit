@@ -242,10 +242,9 @@ with st.container():
         st.write("☞ Github:")
         st.write("")
         st.write("☞ Streamlit App: ")   
-        st.write("")
-        st.write("Dashboard:  https://prevendo-precospetroleobrentfobcomapp-9sunjtkqnaj4cmappsu5mwz.streamlit.app/")
+        st.write("")   
     with col18:
         st.link_button("https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py", "https://github.com/cearense2804/Prevendo-Precos_Petroleo_Brent_FOB_com_Streamlit/blob/main/app.py",type="secondary")
         st.link_button("Streamlit App", "https://prevendo-precospetroleobrentfobcomapp-fffmbxouavt3ffjtinxna7.streamlit.app/",type="secondary")
-   
+st.write("Dashboard:  https://prevendo-precospetroleobrentfobcomapp-9sunjtkqnaj4cmappsu5mwz.streamlit.app/") 
     
